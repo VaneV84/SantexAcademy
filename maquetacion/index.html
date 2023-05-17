@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4319e4a4b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fundación Tecnología con Propósito</title>
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+
+    <div id="header">
         <div id="header-left">
-            <img src="logo.svg">
+            <img src="https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose.svg" alt="Technology With Purpose Logo">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
+        <div id="header-right">
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capaciontaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+            <button id="redondo-1" class="redondo">Sumate +</button>
+            <a href="https://www.instagram.com/technologywithpurpose/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/technologywithpurpose/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+
+
+    <div id="introduction">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+            <h1 class="intro">Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+        <div id="introduction-actions">
+            <button id="redondo-2" class="redondo">Contactanos →</button>
+            <button id="redondo-3" class="redondo">Sumate +</button>
         </div>
     </div>
+
+
+    <div id="impacto-contenedor">
+        <div id="impacto">
+            <div id="impacto-left">
+                <h2 class="impacto-title">. Impacto</h2>
+                <p class="impacto-text">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>          
+            </div>
+            <div id="impacto-right">
+                <div class="counter-localidades">
+                    <span>58</span>
+                    <p class="impacto">Localidades</p>
+                </div>
+                <div class="counter-mentores">
+                    <span class="suma">+</span>
+                    <span>50</span>
+                    <p class="impacto">Mentores</p>
+                </div>
+                <div class="counter-participantes">
+                    <span>301</span>
+                    <p class="impacto">Participantes</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div id="home">
+        <img id="imghome" src="https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg" alt="imgHome">
+    </div>    
 </body>
 </html>
